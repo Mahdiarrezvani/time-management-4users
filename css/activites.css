@@ -226,7 +226,7 @@ body {
 .container-news .title {
   text-align: center;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .container-news span {
@@ -234,36 +234,15 @@ body {
   font-size: 15px;
 }
 
-.news .first-one-container,
-.news .last-one-container {
+.news .useful,
+.news .average {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
 }
 
-.news p {
-  margin: 10px 5px;
-}
-
-.useful,
-.average {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.title-news {
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.last-update {
+.news .last-update {
   margin-top: 30px;
   font-size: 18px;
   display: -webkit-box;
@@ -285,8 +264,8 @@ body {
 .activites {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
   grid-gap: 7px;
 }
 
