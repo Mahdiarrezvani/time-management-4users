@@ -1,9 +1,9 @@
 import { dataBase } from './dataBase.js';
 let usefulTimeElem = document.querySelector('.useful');
-// let subjects = ['code', 'learn', 'english', 'study', 'wasted'];
-// let firstOneContainer = document.querySelector('.first-one-container');
+let subjects = ['code', 'learn', 'english', 'study', 'wasted'];
+let firstOneContainer = document.querySelector('.first-one-container');
 let lastOneContainer = document.querySelector('.last-one-container');
-// let sumMahdiar, sumAmin, sumAbbas, sumAmirMahdi;
+let sumMahdiar, sumAmin, sumAbbas, sumAmirMahdi;
 //! storage
 function storage(subject) {
     sumMahdiar = 0;
@@ -29,18 +29,18 @@ function storage(subject) {
     ];
 }
 //! Firs One
-// function firstOne(subject) {
-//     let number = null;
-//     storage(subject);
-//     if (subject == 'wasted') {
-//         number = Math.min(sumAbbas, sumAmin, sumMahdiar, sumAmirMahdi);
-//     } else {
-//         number = Math.max(sumAbbas, sumAmin, sumMahdiar, sumAmirMahdi);
-//     }
-//     let firstPerson = findPerson(number);
-//     firstOneContainer.insertAdjacentHTML('beforeend', `
-//     <p>${subject} : <span>${firstPerson}</span></p>`);
-// }
+function firstOne(subject) {
+    let number = null;
+    storage(subject);
+    if (subject == 'wasted') {
+        number = Math.min(sumAbbas, sumAmin, sumMahdiar, sumAmirMahdi);
+    } else {
+        number = Math.max(sumAbbas, sumAmin, sumMahdiar, sumAmirMahdi);
+    }
+    let firstPerson = findPerson(number);
+    firstOneContainer.insertAdjacentHTML('beforeend', `
+    <p>${subject} : <span>${firstPerson}</span></p>`);
+}
 //! Last One
 function lastOne(subject) {
     storage(subject);
