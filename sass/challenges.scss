@@ -1,0 +1,137 @@
+@import 'style.scss';
+$color: #830000;
+
+.title {
+    margin: 15px 0 12px;
+    background-color: $color;
+    border-radius: 7px;
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.activite-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7px;
+}
+
+.btn-challenge {
+    border-radius: 7px;
+    padding: 20px 0;
+    text-align: center;
+    border: 2px solid #3B3B3B;
+}
+
+// دکمه فعال
+.active,
+.active-number {
+    background-color: #252525;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.subject {
+    margin: 60px 0 20px;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 2px solid $color;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-btn-number {
+    overflow: auto;
+    margin-top: 7px;
+}
+
+.section-btn-number p {
+    display: inline-block;
+    padding: 8px 13px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #313131;
+}
+
+// ! Info Challenge 
+.info-challenge {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 15px;
+    border-radius: 7px;
+    background: #1B1B1B;
+    padding: 15px 22px;
+}
+
+.info-challenge .value {
+    color: $tem-bgColor;
+}
+
+.info-challenge p:nth-child(3),
+.info-challenge p:nth-child(4) {
+    margin-top: 25px;
+}
+
+.info-challenge p:nth-child(odd) {
+    border-right: 1px solid #353535;
+}
+
+.info-challenge p:nth-child(even) {
+    margin-left: 20px;
+}
+
+// ! State Challenge
+.state-challenge {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 14px;
+    border-radius: 7px;
+    background-color: #1B1B1B;
+    padding: 16px;
+    // text-align: center;
+}
+
+.state-challenge div:nth-child(3),
+.state-challenge div:nth-child(4) {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #2E2E2E;
+}
+
+.state-challenge p:nth-child(2),
+.state-challenge p:nth-child(3) {
+    margin-top: 13px;
+}
+
+.state-challenge div:nth-child(odd) {
+    border-right: 1px solid #2E2E2E;
+}
+
+.state-challenge div:nth-child(even) {
+    padding-left: 40px;
+}
+
+.state-challenge .name-person {
+    border-bottom: 1px solid #5E5E5E;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+
+.few-day-fail {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.is-finish-challenge {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 7px;
+}

@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+.transition {
+  -webkit-animation: btnTransition 1.5s alternate forwards linear;
+          animation: btnTransition 1.5s alternate forwards linear;
+}
+
+.showTable {
+  -webkit-animation: showTable 1.5s linear;
+          animation: showTable 1.5s linear;
+}
+
+.closeMenu {
+  -webkit-animation: closeMenu 0.7s linear forwards;
+          animation: closeMenu 0.7s linear forwards;
+}
+
+.openMenu {
+  -webkit-animation: openMenu 0.7s linear forwards;
+          animation: openMenu 0.7s linear forwards;
+}
+
+@-webkit-keyframes btnTransition {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  20% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  40% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  60% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  80% {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes btnTransition {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  20% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  40% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  60% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  80% {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 0;
+    display: none;
+  }
+}
+
+@-webkit-keyframes showTable {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showTable {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes openMenu {
+  from {
+    -webkit-transform: translateX(-165px);
+            transform: translateX(-165px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes openMenu {
+  from {
+    -webkit-transform: translateX(-165px);
+            transform: translateX(-165px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes closeMenu {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-165px);
+            transform: translateX(-165px);
+  }
+}
+
+@keyframes closeMenu {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-165px);
+            transform: translateX(-165px);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif', serif;
+}
+
+body {
+  background-color: #101010;
+  color: white;
+}
+
+.container {
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.back-history {
+  font-size: 14px;
+}
+
+.back-history span {
+  margin-left: 5px;
+}
+
+.top-bar button {
+  background-color: transparent;
+  padding: 10px;
+  margin: 13px;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.menu {
+  -webkit-transform: translateX(-165px);
+          transform: translateX(-165px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #222;
+  width: 165px;
+  height: 100%;
+}
+
+.menu .close-menu-btn {
+  font-size: 25px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin: 20px;
+}
+
+.menu ul {
+  padding-left: 13px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu ul li {
+  list-style: none;
+  padding: 15px 7px;
+  cursor: pointer;
+  -webkit-transition: all 0.6s linear;
+  transition: all 0.6s linear;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.container-news {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.container-news .title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.container-news span {
+  color: #eeff00;
+  font-size: 15px;
+}
+
+.news .first-one-container,
+.news .last-one-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.news p {
+  margin: 10px 5px;
+}
+
+.useful,
+.average {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title-news {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.last-update {
+  margin-top: 30px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container {
+  text-transform: capitalize;
+}
+
+.container .title {
+  padding: 5px 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #eeff00;
+  color: black;
+}
+
+.container div p {
+  text-align: center;
+  font-size: 21px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.container ul {
+  border-bottom: 2px solid #eeff00;
+}
+
+li {
+  list-style: none;
+  margin: 20px 7px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1500px) {
+  ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 578px) {
+  ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*# sourceMappingURL=col.css.map */

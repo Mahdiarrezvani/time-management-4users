@@ -1,0 +1,107 @@
+@import 'style.scss';
+$color: #787878;
+
+.title {
+    margin: 15px 0 12px;
+    background-color: $color;
+    border-radius: 7px;
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.activites {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7px;
+}
+
+.active {
+    background-color: #252525;
+}
+
+.btn-activite {
+    border-radius: 7px;
+    padding: 20px 0;
+    text-align: center;
+    border: 2px solid #3B3B3B;
+}
+
+.subject {
+    margin: 60px 0 20px;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 2px solid $color;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 7px;
+}
+
+.section-info {
+    border-radius: 7px;
+    background: #1B1B1B;
+    display: inline-block;
+    padding: 10px;
+}
+
+.name-person {
+    border-bottom: 2px solid #2D2D2D;
+    padding-bottom: 6px;
+}
+
+.section-time {
+    color: $tem-bgColor;
+    margin: 6px 0;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.few-day {
+    display: inline-block;
+    margin: 20px 0;
+    border-bottom: 2px solid $color;
+    padding-bottom: 6px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bottom-section {
+    display: flex;
+    border-top: 1px solid #2D2D2D;
+    padding-top: 12px;
+}
+
+.bottom-section p {
+    border-radius: 7px;
+    padding: 20px 11px;
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-one {
+    border: 3px solid #00A355;
+    margin-right: 9px;
+
+    .name-first {
+        color: #00A355;
+    }
+}
+
+.last-one {
+    border: 3px solid #ff2b2b;
+
+    .name-last {
+        color: #ff2b2b;
+    }
+}
