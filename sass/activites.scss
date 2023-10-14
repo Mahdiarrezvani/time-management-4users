@@ -12,13 +12,14 @@ $color: #787878;
 
 .activites {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 7px;
 }
 
-// .wasted-time {
-//     grid-column: 2/4;
-// }
+.wasted-time {
+    grid-column: 2/4;
+}
+
 .active {
     background-color: #252525;
 }
