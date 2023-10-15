@@ -113,14 +113,14 @@ function workMofid() {
     <p>mahdiar: <span>${information[0].storage}</span></p>
     <p>amin: <span>${information[1].storage}</span></p>
     <p>amir abbas: <span>${information[2].storage}</span></p>
-    <p>amir mahdi: <span>${information[1].storage}</span></p>`;
+    <p>amir mahdi: <span>${information[3].storage}</span></p>`;
     average(information[0].storage, information[1].storage, information[2].storage, information[3].storage);
     // average(sumMahdiar, sumAmin, sumAbbas)
 }
 // average
 // صدا زده شده workMofid داخل
 //! میانگین کار های انجام شده و مفید بوده
-function average(sumMahdiar, sumAmin, sumAbbas) {
+function average(sumMahdiar, sumAmin, sumAbbas, sumAmirMahdi) {
     let numberDays = dataBase[0].length;
     let averageElem = document.querySelector('.average');
     let mahdiar = Math.floor(sumMahdiar / numberDays);
