@@ -2,7 +2,7 @@ import { dataBase } from "../database/dataBaseChallenges.js";
 import { backHomePage } from "./mixins.js";
 backHomePage();
 // ! متغیر ها
-let typeChallenge = 'usefulWorks';
+let typeChallenge = 'code';
 let numberChallenge = 0;
 let arrayChallenge = dataBase[typeChallenge][numberChallenge];
 let numberChallengeElems;
