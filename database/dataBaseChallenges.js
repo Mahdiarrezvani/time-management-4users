@@ -8,6 +8,13 @@ export const dataBase = {
             abbas: { name: 'amir abbas', state: '👎', result: 0, arrayChallengeProcess: [110, 150, 115, 130, 140, 0] },
             mahdi: { name: 'amir mahdi', state: '👎', result: 0, arrayChallengeProcess: [87, 60, 200, 70, 0, 0] },
         },
+        {
+            infoChallenge: { start: '1402/09/04', end: '1402/09/10', period: 7, target: 1300 },
+            mahdiar: { name: 'mahdiar', state: '👎', result: 0, arrayChallengeProcess: [] },
+            amin: { name: 'amin', state: '👎', result: 0, arrayChallengeProcess: [] },
+            abbas: { name: 'amir abbas', state: '👎', result: 0, arrayChallengeProcess: [] },
+            mahdi: { name: 'amir mahdi', state: '👎', result: 0, arrayChallengeProcess: [] },
+        },
     ],
     //!                                         pushUp
     pushUp: [
@@ -20,4 +27,4 @@ export const dataBase = {
         },
     ],
 }
-    //?                                  doing  doing  doing
+//?                                  doing  doing  doing
