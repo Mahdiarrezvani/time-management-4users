@@ -10,10 +10,10 @@ export const dataBase = {
         },
         {
             infoChallenge: { start: '1402/09/04', end: '1402/09/10', period: 7, target: 1300 },
-            mahdiar: { name: 'mahdiar', state: '👎', result: 0, arrayChallengeProcess: [37] },
-            amin: { name: 'amin', state: '👎', result: 0, arrayChallengeProcess: [22] },
-            abbas: { name: 'amir abbas', state: '👎', result: 0, arrayChallengeProcess: [80] },
-            mahdi: { name: 'amir mahdi', state: '👎', result: 0, arrayChallengeProcess: [0] },
+            mahdiar: { name: 'mahdiar', state: '👎', result: 0, arrayChallengeProcess: [37, 135] },
+            amin: { name: 'amin', state: '👎', result: 0, arrayChallengeProcess: [22, 0] },
+            abbas: { name: 'amir abbas', state: '👎', result: 0, arrayChallengeProcess: [80, 60] },
+            mahdi: { name: 'amir mahdi', state: '👎', result: 0, arrayChallengeProcess: [0, 60] },
         },
     ],
     //!                                         pushUp
