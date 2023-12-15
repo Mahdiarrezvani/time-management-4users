@@ -94,7 +94,7 @@ let month3Abbas = [
     // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
 ];
-let month2AmirMahdi = [
+let month3AmirMahdi = [
     { date: "1402/09/22", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     { date: "1402/09/23", day: "thursday", code: "10", learn: "20", english: "0", study: "15", wasted: "180" },
     // { date: "1402/09/24", day: "friday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
@@ -126,4 +126,4 @@ let month2AmirMahdi = [
     // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
 ];
-export { month3Mahdiar, month3Amin, month3Abbas, month2AmirMahdi };
+export { month3Mahdiar, month3Amin, month3Abbas, month3AmirMahdi };
