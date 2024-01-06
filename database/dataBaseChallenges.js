@@ -26,5 +26,16 @@ export const dataBase = {
             mahdi: { name: 'amir mahdi', state: '👎', result: 0, arrayChallengeProcess: [0, 0, 0, 0, 0, 0, 0] },
         },
     ],
+    //!                                         codeLearn
+    //?                                  doing  doing  doing
+    codeLearn: [
+        {
+            infoChallenge: { start: '1402/10/16', end: '1402/10/22', period: 7, target: 700 },
+            mahdiar: { name: 'mahdiar', state: '👎', result: 0, arrayChallengeProcess: [] },
+            amin: { name: 'amin', state: '👎', result: 0, arrayChallengeProcess: [] },
+            abbas: { name: 'amir abbas', state: '👎', result: 0, arrayChallengeProcess: [] },
+            mahdi: { name: 'amir mahdi', state: '👎', result: 0, arrayChallengeProcess: [] },
+        },
+    ],
 }
 //?                                  doing  doing  doing
