@@ -31,10 +31,10 @@ export const dataBase = {
     codeLearn: [
         {
             infoChallenge: { start: '1402/10/16', end: '1402/10/22', period: 7, target: 700 },
-            mahdiar: { name: 'mahdiar', state: '👎', result: 0, arrayChallengeProcess: [238, 198] },
-            amin: { name: 'amin', state: '👎', result: 0, arrayChallengeProcess: [114, 0] },
-            abbas: { name: 'amir abbas', state: '👎', result: 0, arrayChallengeProcess: [167, 215] },
-            mahdi: { name: 'amir mahdi', state: '👎', result: 0, arrayChallengeProcess: [200, 30] },
+            mahdiar: { name: 'mahdiar', state: '👎', result: 0, arrayChallengeProcess: [238, 198, 108, 314] },
+            amin: { name: 'amin', state: '👎', result: 0, arrayChallengeProcess: [114, 0, 0, 240] },
+            abbas: { name: 'amir abbas', state: '👎', result: 0, arrayChallengeProcess: [167, 215, 70, 60] },
+            mahdi: { name: 'amir mahdi', state: '👎', result: 0, arrayChallengeProcess: [200, 30, 0, 80] },
         },
     ],
 }

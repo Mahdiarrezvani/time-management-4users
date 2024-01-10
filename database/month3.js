@@ -25,8 +25,8 @@ let month3Mahdiar = [
     { date: "1402/10/15", day: "friday", code: "53", learn: "0", english: "0", study: "0", wasted: "30" },
     { date: "1402/10/16", day: "saturday", code: "218", learn: "20", english: "0", study: "0", wasted: "150" },
     { date: "1402/10/17", day: "sunday", code: "185", learn: "13", english: "0", study: "0", wasted: "131" },
-    // { date: "1402/10/18", day: "monday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
-    // { date: "1402/10/19", day: "tuesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/18", day: "monday", code: "108", learn: "0", english: "0", study: "0", wasted: "120" },
+    { date: "1402/10/19", day: "tuesday", code: "314", learn: "0", english: "0", study: "0", wasted: "120" },
     // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
 ];
@@ -57,8 +57,8 @@ let month3Amin = [
     { date: "1402/10/15", day: "friday", code: "0", learn: "0", english: "0", study: "0", wasted: "90" },
     { date: "1402/10/16", day: "saturday", code: "43", learn: "71", english: "0", study: "0", wasted: "15" },
     { date: "1402/10/17", day: "sunday", code: "0", learn: "0", english: "0", study: "0", wasted: "60" },
-    // { date: "1402/10/18", day: "monday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
-    // { date: "1402/10/19", day: "tuesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/18", day: "monday", code: "0", learn: "0", english: "0", study: "0", wasted: "180" },
+    { date: "1402/10/19", day: "tuesday", code: "0", learn: "240", english: "0", study: "0", wasted: "180" },
     // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
 ];
@@ -89,8 +89,8 @@ let month3Abbas = [
     { date: "1402/10/15", day: "friday", code: "0", learn: "0", english: "0", study: "0", wasted: "18" },
     { date: "1402/10/16", day: "saturday", code: "200", learn: "0", english: "0", study: "0", wasted: "180" },
     { date: "1402/10/17", day: "sunday", code: "215", learn: "0", english: "0", study: "0", wasted: "180" },
-    // { date: "1402/10/18", day: "monday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
-    // { date: "1402/10/19", day: "tuesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/18", day: "monday", code: "70", learn: "0", english: "0", study: "0", wasted: "250" },
+    { date: "1402/10/19", day: "tuesday", code: "60", learn: "0", english: "0", study: "0", wasted: "220" },
     // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
 ];
@@ -121,8 +121,8 @@ let month3AmirMahdi = [
     { date: "1402/10/15", day: "friday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     { date: "1402/10/16", day: "saturday", code: "52", learn: "115", english: "0", study: "30", wasted: "60" },
     { date: "1402/10/17", day: "sunday", code: "0", learn: "30", english: "0", study: "0", wasted: "120" },
-    // { date: "1402/10/18", day: "monday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
-    // { date: "1402/10/19", day: "tuesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/18", day: "monday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/19", day: "tuesday", code: "30", learn: "50", english: "0", study: "60", wasted: "220" },
     // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
 ];
