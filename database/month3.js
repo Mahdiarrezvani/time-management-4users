@@ -27,8 +27,8 @@ let month3Mahdiar = [
     { date: "1402/10/17", day: "sunday", code: "185", learn: "13", english: "0", study: "0", wasted: "131" },
     { date: "1402/10/18", day: "monday", code: "108", learn: "0", english: "0", study: "0", wasted: "120" },
     { date: "1402/10/19", day: "tuesday", code: "314", learn: "0", english: "0", study: "0", wasted: "120" },
-    // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
-    // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/20", day: "wednesday", code: "216", learn: "18", english: "0", study: "0", wasted: "90" },
+    { date: "1402/10/21", day: "thursday", code: "254", learn: "0", english: "0", study: "0", wasted: "120" },
 ];
 let month3Amin = [
     { date: "1402/09/22", day: "wednesday", code: "85", learn: "35", english: "0", study: "0", wasted: "120" },
@@ -59,8 +59,8 @@ let month3Amin = [
     { date: "1402/10/17", day: "sunday", code: "0", learn: "0", english: "0", study: "0", wasted: "60" },
     { date: "1402/10/18", day: "monday", code: "0", learn: "0", english: "0", study: "0", wasted: "180" },
     { date: "1402/10/19", day: "tuesday", code: "0", learn: "240", english: "0", study: "0", wasted: "180" },
-    // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
-    // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/20", day: "wednesday", code: "0", learn: "82", english: "0", study: "0", wasted: "180" },
+    { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "250" },
 ];
 let month3Abbas = [
     { date: "1402/09/22", day: "wednesday", code: "120", learn: "0", english: "0", study: "0", wasted: "200" },
@@ -91,8 +91,8 @@ let month3Abbas = [
     { date: "1402/10/17", day: "sunday", code: "215", learn: "0", english: "0", study: "0", wasted: "180" },
     { date: "1402/10/18", day: "monday", code: "70", learn: "0", english: "0", study: "0", wasted: "250" },
     { date: "1402/10/19", day: "tuesday", code: "60", learn: "0", english: "0", study: "0", wasted: "220" },
-    // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
-    // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/20", day: "wednesday", code: "120", learn: "0", english: "0", study: "0", wasted: "170" },
+    { date: "1402/10/21", day: "thursday", code: "60", learn: "0", english: "0", study: "0", wasted: "120" },
 ];
 let month3AmirMahdi = [
     { date: "1402/09/22", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
@@ -123,7 +123,7 @@ let month3AmirMahdi = [
     { date: "1402/10/17", day: "sunday", code: "0", learn: "30", english: "0", study: "0", wasted: "120" },
     { date: "1402/10/18", day: "monday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     { date: "1402/10/19", day: "tuesday", code: "30", learn: "50", english: "0", study: "60", wasted: "220" },
-    // { date: "1402/10/20", day: "wednesday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
-    // { date: "1402/10/21", day: "thursday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/20", day: "wednesday", code: "30", learn: "70", english: "0", study: "0", wasted: "100" },
+    { date: "1402/10/21", day: "thursday", code: "26", learn: "37", english: "0", study: "0", wasted: "0" },
 ];
 export { month3Mahdiar, month3Amin, month3Abbas, month3AmirMahdi };
