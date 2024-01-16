@@ -124,6 +124,6 @@ let month3AmirMahdi = [
     { date: "1402/10/18", day: "monday", code: "0", learn: "0", english: "0", study: "0", wasted: "0" },
     { date: "1402/10/19", day: "tuesday", code: "30", learn: "50", english: "0", study: "60", wasted: "220" },
     { date: "1402/10/20", day: "wednesday", code: "30", learn: "70", english: "0", study: "0", wasted: "100" },
-    { date: "1402/10/21", day: "thursday", code: "26", learn: "37", english: "0", study: "0", wasted: "0" },
+    { date: "1402/10/21", day: "thursday", code: "26", learn: "37", english: "0", study: "0", wasted: "100" },
 ];
 export { month3Mahdiar, month3Amin, month3Abbas, month3AmirMahdi };
